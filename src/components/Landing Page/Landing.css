@@ -58,6 +58,7 @@
   display: inline-block;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  margin-left: 8px;
 }
 .right-content {
   width: 60%;
@@ -98,6 +99,7 @@
   margin-top: 1rem;
   background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
   background-clip: text;
+  display: inline-block;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-align: left;

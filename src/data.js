@@ -15,7 +15,7 @@ const data =[
 {
     id: 1,
     image: Ryzen ,
-    name: "amd ryzen 5 3600",
+    name: "Amd Ryzen 5 3600",
     price: "$1200",
     description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ateos aliquid reiciendis reprehenderit a corporis illo nisi deserunt ipsam doloribus aliquam molestiae"
 
@@ -24,7 +24,7 @@ const data =[
 {
     id: 2,
     image: Nvidia,
-    name: "Nvidia Rtx 2070B",
+    name: "Nvidia Rtx 2070 B",
     price: "$1400",
     description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ateos aliquid reiciendis reprehenderit a corporis illo nisi deserunt ipsam doloribus aliquam molestiae"
 

@@ -22,7 +22,7 @@ const Landing = () => {
           <div className="left-content">
             <h2>Personal Computers Made Easy</h2>
             <h1>
-              All PCs You need in One Marketplace The Best Place to Build Custom
+              All PCs You need in One Marketplace The Best Place to Build  
               <span className="GradientText">Custom PCs</span>
               
             </h1>
