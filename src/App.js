@@ -7,6 +7,7 @@ import { BrowserRouter as Router,
 import Landing from './components/Landing Page/Landing';
 import Login from './components/Login/Login';
 import TopMenu from './components/TopMenu/TopMenu';
+import SelectionPage from './components/Selection Page/SelectionPage';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
 
          <Route path="/" exact component={Landing} /> 
           <Route path="/login" exact component={Login} />
+          <Route path="/selection" exact component={SelectionPage} />
         </Switch>
   </div>
 
