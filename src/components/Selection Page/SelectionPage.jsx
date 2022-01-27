@@ -1,10 +1,19 @@
 import React from "react";
+import { useHistory } from "react-router";
 import custompc from "../../Assets/custompc.png";
 import requirmentpc from "../../Assets/requirmentpc.png";
 import budgetpc from "../../Assets/budgetpc.png";
 import "./SelectionPage.css";
 
 const SelectionPage = () => {
+
+  const history = useHistory();
+
+  /* Click on Budget Box It Navigate to budget page */ 
+    const handlebudget = () =>{
+      history.push ('/budget');
+    }
+
   return (
     <div className="selection-container">
       <div className="selection-wrapper">
@@ -34,7 +43,7 @@ const SelectionPage = () => {
           </div>
         </div>
 
-        <div className="selection-box">
+        <div className="selection-box" onClick={handlebudget}>
           <div className="first-part">
             <img src={budgetpc} alt="" />
           </div>
