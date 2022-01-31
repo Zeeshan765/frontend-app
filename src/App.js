@@ -9,7 +9,9 @@ import Login from './components/Login/Login';
 import TopMenu from './components/TopMenu/TopMenu';
 import SelectionPage from './components/Selection Page/SelectionPage';
 import BudgetPage from './components/Budget/BudgetPage';
-import LowBudgetPage from './components/Budget/LowBudgetPage';
+import LowBudgetPage from "./components/Budget/Low Budget/LowBudgetPage";
+import MidBudgetPage from './components/Budget/Mid Budget/MidBudgetPage';
+import HighBudgetPage from './components/Budget/High Budget/HighBudgetPage';
 
 const App = () => {
   return (
@@ -24,6 +26,9 @@ const App = () => {
           <Route path="/selection" exact component={SelectionPage} />
           <Route path="/budget" exact component={BudgetPage} />
           <Route path="/budget/lowbudget" exact component={LowBudgetPage} />
+          <Route path="/budget/midbudget" exact component={MidBudgetPage} />
+          <Route path="/budget/highbudget" exact component={HighBudgetPage} />
+          
         </Switch>
   </div>
 

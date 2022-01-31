@@ -37,7 +37,7 @@ const BudgetPage = () => {
 
 
               <div className="budget-box">
-              <Link to="/budget/lowbudget">
+              <Link to="/budget/midbudget">
                   <div className="first-half">
                       <img src={budget2} alt="" />
                   </div>
@@ -54,6 +54,7 @@ const BudgetPage = () => {
 
 
               <div className="budget-box">
+              <Link to="/budget/highbudget">
                   <div className="first-half">
                       <img src={budget3} alt="" />
                   </div>
@@ -62,6 +63,7 @@ const BudgetPage = () => {
                       <h3>BudgetRange</h3>
                       <h4>90,000+  pkr </h4>
                   </div>
+                  </Link>
 
               </div>
           </div>
