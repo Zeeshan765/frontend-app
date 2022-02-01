@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 //import { useHistory } from "react-router";
 import budget1 from "../../Assets/budgetpc1.jpg";
 import budget2 from "../../Assets/budgetpc2.png";
 import budget3 from "../../Assets/budgetpc3.png";
 import "./BudgetPage.css";
+import Menu from "./budgetdata.js";
+import MidBudgetPage from "./Mid Budget/MidBudgetPage";
 
 const BudgetPage = () => {
 
+    const[menuData,setMenuData]= useState(Menu);
+    console.log(menuData);
     //const history = useHistory();
 
     /* Click on Budget Box It Navigate to budget page */ 
@@ -38,6 +42,7 @@ const BudgetPage = () => {
 
               <div className="budget-box">
               <Link to="/budget/midbudget">
+           
                   <div className="first-half">
                       <img src={budget2} alt="" />
                   </div>

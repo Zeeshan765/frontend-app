@@ -1,8 +1,8 @@
-import Ryzen from "./Assets/Ryzen.jpg";
-import Nvidia from "./Assets/Nvidia.jpg";
-import mortar from "./Assets/mortar.jpg";
-import Furry from "./Assets/Furry.jpg";
-import cooler from "./Assets/cooler.jpg";
+import Ryzen from "../../Assets/Ryzen.jpg"
+import Nvidia from "../../Assets/Nvidia.jpg";
+import mortar from "../../Assets/mortar.jpg";
+import Furry from "../../Assets/Furry.jpg";
+import cooler from "../../Assets/cooler.jpg";
 
 
 
@@ -16,7 +16,7 @@ const budgetdata =[
     id: 1,
     image: Ryzen ,
     name: "Amd Ryzen 5 3600",
-    category:"Low Budget",
+    category:"Mid Range Budget",
     price: "$1200",
     description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, ateos aliquid reiciendis reprehenderit a corporis illo nisi deserunt ipsam doloribus aliquam molestiae"
 
