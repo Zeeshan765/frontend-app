@@ -5,19 +5,19 @@ const SingleLowBudget = ({ data }) => {
   console.log(data);
   return (
     <>
-      <div className="card-wrapper">
-        <div className="card-box">
-          <div className="upper-card">
+      
+        <div className="product-box">
+          <div className="upper-box">
             <img src={data.image} alt="" />
           </div>
-          <div className="lower-card">
+          <div className="lower-box">
             <h3>{data.name}</h3>
             <h4>{data.price}</h4>
             <p>{data.description}</p>
-            <button className="btn-view">View Detail</button>
+            <button className="btn-1">View Detail</button>
           </div>
         </div>
-      </div>
+     
     </>
   );
 };

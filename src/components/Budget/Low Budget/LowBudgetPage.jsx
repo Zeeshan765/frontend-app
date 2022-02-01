@@ -4,7 +4,7 @@ import SingleLowBudget from './SingleLowBudget';
 import budgetdata from "../budgetdata";
 //import SingleLowBudget from "./SingleLowBudget";
 const LowBudgetPage = () => {
-  const[itemData,setItemData] = useState(budgetdata);
+  const[menuData,setMenuData] = useState(budgetdata);
     
  
   return( 
@@ -12,7 +12,7 @@ const LowBudgetPage = () => {
     <>
   <div className='lowbudget-container'>
 
-  { itemData.filter((data) =>
+  { menuData.filter((data) =>
 (data.category === "Low Budget")
   ).map((data, index) => (
          

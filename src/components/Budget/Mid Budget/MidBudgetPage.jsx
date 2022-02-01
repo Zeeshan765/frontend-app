@@ -1,26 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./MidBudgetPage.css";
-import cooler from "../../../Assets/mortar.jpg";
+
+import budgetdata from "../budgetdata.js"
+import SingleMidBudget from './SingleMidBudget';
 
 const MidBudgetPage = () => {
+  const[menuData,setMenuData] = useState(budgetdata);
+
   return (
   
+
   <>
-  <div className='product-wrapper'>
-    <div className="product-box">
-      <div className="upper-box">
-       <img src={cooler} alt="" />
-      </div>
-      <div className="lower-box">
-        <h3>zeeshan</h3>
-        <h4>20000</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eveniet.</p>
-         <button className="btn-1">View Detail</button>
-      </div>
-    </div>
-      
+  <div className="midbudget-container">
+  { menuData.filter((data) =>
+(data.category === "Mid Range Budget")
+  ).map((data, index) => (
+         
+    <SingleMidBudget key={index} data={data} />
+  
+   ))}
+
+  
   </div>
+  
+
+ 
   </>);
 };
 
 export default MidBudgetPage;
+
+/*
+{ itemData.filter((data) =>
+(data.category === "Low Budget")
+  ).map((data, index) => (
+         
+    <SingleLowBudget key={index} data={data} />
+  
+   ))}
+*/
