@@ -62,13 +62,14 @@
 }
 .right-content {
   width: 60%;
+  
 }
 .bchain-img {
   position: absolute;
-  right: 11%;
+  right: 13%;
   top: 4%;
-  width: 45%;
-  height: 80%;
+  width: 37%;
+  height: 65%;
 }
 
 .btn {

@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router";
 import mainvideo from "../../Assets/mainvideo.mp4";
 import Circle from "../../Assets/Circle.svg";
-import Bchain from "../../Assets/bchain.png";
+import fp from "../../Assets/fp.jpg";
 import TrendingProducts from "./TrendingProducts";
 import "./Landing.css";
 
@@ -40,7 +40,7 @@ const Landing = () => {
             <button className="btn" onClick={handleClick}>Start Your Build</button>
           </div>
           <div className="right-content">
-            <img src={Bchain} alt="circle1" className="bchain-img" />
+            <img src={fp} alt="circle1" className="bchain-img" />
           </div>
         </div>
         
