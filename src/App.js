@@ -12,6 +12,10 @@ import BudgetPage from './components/Budget/BudgetPage';
 import LowBudgetPage from "./components/Budget/Low Budget/LowBudgetPage";
 import MidBudgetPage from './components/Budget/Mid Budget/MidBudgetPage';
 import HighBudgetPage from './components/Budget/High Budget/HighBudgetPage';
+import PeripheralPage from './components/Peripherals/PeripheralPage';
+import AboutUs from './components/About Us/AboutUs';
+import ComponentsPage from "./components/components page/ComponentsPage";
+import cart from './components/cart Page/cart';
 
 const App = () => {
   return (
@@ -28,6 +32,10 @@ const App = () => {
           <Route path="/budget/lowbudget" exact component={LowBudgetPage} />
           <Route path="/budget/midbudget" exact component={MidBudgetPage} />
           <Route path="/budget/highbudget" exact component={HighBudgetPage} />
+          <Route path="/peripherals" exact component={PeripheralPage} />
+          <Route path="/about-us" exact component={AboutUs} />
+          <Route path="/components" exact component={ComponentsPage} />
+          <Route path="/shop-cart" exact component={cart} />
           
         </Switch>
   </div>
